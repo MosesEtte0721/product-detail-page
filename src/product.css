@@ -1,15 +1,28 @@
 .product-images {
-    max-width: 50%;
+    max-width: 40%;
     display: flex;
     flex-direction: row-reverse;
-    margin: 5px;
+    margin-top: 30px;
+}
+
+.total-cost-of-product {
+    color: red;
+    font-weight: bolder;
 }
 
 .product-wrapper {
+    font-family: Inter,
+        system-ui,
+        Avenir,
+        Helvetica,
+        Arial,
+        sans-serif;
+    font-weight: 400;
     max-width: 90%;
     display: flex;
     justify-self: center;
-    background-color: rgba(226, 235, 232, 0.904);
+    /* background-color: rgba(226, 235, 232, 0.904); */
+    background-color: rgba(255, 255, 255, 0.838);
     margin: 0 auto;
 
 }
@@ -24,7 +37,7 @@
 }
 
 .secondary-photos>img {
-    border: 2px solid black;
+    border: 2px solid blue;
     border-radius: 5px;
     padding: 0;
 
@@ -33,21 +46,23 @@
 .price-description-reviews {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 
 }
+
+
 
 .reviews {
-    max-width: 45%;
+    max-width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.reviews>img {
-    width: 30px;
-    height: 30px;
+
+.review-stars>img {
+    width: 20px;
+    height: 20px;
 }
 
 .second-secondary-photos {
@@ -58,8 +73,9 @@
 }
 
 .second-secondary-photos>img {
-    max-width: 40%;
+    max-width: 30%;
     margin-right: 5px;
+    border-radius: 5px;
 }
 
 .second-secondary-photos>img:hover {
@@ -75,16 +91,19 @@
     max-width: 100%;
     display: flex;
 
-    margin-top: 65px;
+    margin-top: 10px;
 }
 
 .buttons [type=button] {
     margin-right: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 12px;
 }
 
 .add,
 .remove {
-    background-color: blue;
+    background-color: black;
     color: white;
     border-radius: 200;
     padding: 0;
@@ -100,4 +119,16 @@
     max-width: 60px;
     text-align: center;
     font-size: 18px;
+}
+
+.description {
+    /* max-width: 50%; */
+    margin: 5px;
+    padding: 0;
+    line-height: 2;
+
+}
+
+.desc-span {
+    font-weight: bold;
 }
