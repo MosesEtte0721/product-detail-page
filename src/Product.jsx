@@ -5,29 +5,29 @@ import Header from "./Header";
 function Product() {
 	const stars = [
 		{
-			image: "../src/assets/star-vector-icon.jpg",
+			image: "./src/assets/star-vector-icon.jpg",
 			alternateText: "star",
 			title: "Rating",
 			className: "pointer",
 		},
 		{
-			image: "../src/assets/star-vector-icon.jpg",
+			image: "./src/assets/star-vector-icon.jpg",
 			alternateText: "star",
 			title: "Rating",
 			className: "pointer",
 		},
 		{
-			image: "../src/assets/star-vector-icon.jpg",
+			image: "./src/assets/star-vector-icon.jpg",
 			alternateText: "star",
 			className: "pointer",
 		},
 		{
-			image: "../src/assets/star-vector-icon (1).jpg",
+			image: "./src/assets/star-vector-icon (1).jpg",
 			alternateText: "star",
 			className: "pointer",
 		},
 		{
-			image: "../src/assets/star-vector-icon (1).jpg",
+			image: "./src/assets/star-vector-icon (1).jpg",
 			alternateText: "star",
 			className: "pointer",
 		},
@@ -68,16 +68,16 @@ function Product() {
 					</div>
 					<div className='secondary-photos'>
 						<img
-							src='../src/assets/blue-bed-sideview.jpg'
+							src='./src/assets/blue-bed-sideview.jpg'
 							alt='photo'
 							className='pointer'></img>
 						<img
-							src='../src/assets/blue-bed.jpg'
+							src='./src/assets/blue-bed.jpg'
 							alt='photo'
 							title=''
 							className='pointer'></img>
 						<img
-							src='../src/assets/blue-bed-sideview.jpg'
+							src='./src/assets/blue-bed-sideview.jpg'
 							alt='bed'
 							title=''
 							className='pointer'></img>
@@ -114,13 +114,13 @@ function Product() {
 					<div className='second-secondary-photos'>
 						<img
 							className='pointer'
-							src='../src/assets/blue-bed-fixed1.jpg'></img>
+							src='./src/assets/blue-bed-fixed1.jpg'></img>
 						<img
 							className='pointer'
-							src='../src/assets/blue-bed-sideview.jpg'></img>
+							src='./src/assets/blue-bed-sideview.jpg'></img>
 						<img
 							className='pointer'
-							src='../src/assets/blue-bed-fixed1.jpg'></img>
+							src='./src/assets/blue-bed-fixed1.jpg'></img>
 					</div>
 					<div className='increase-decrease-quantity'>
 						<div>
