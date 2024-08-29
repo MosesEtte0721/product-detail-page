@@ -49,7 +49,7 @@ function Header(props) {
 						<div className='user-profile icon'>
 							<div className='icon-child' title='Profile'>
 								<img
-									src='/assets/profile-icon-OIP.png'
+									src='./assets/profile-icon-OIP.png'
 									alt='User profile '
 									title='profile'></img>
 
@@ -59,7 +59,7 @@ function Header(props) {
 						<div className='help icon'>
 							<div className='icon-child' title='Need Help?'>
 								<img
-									src='/assets/red-button-help-icon-vector-19997793.jpg'
+									src='./assets/red-button-help-icon-vector-19997793.jpg'
 									alt='Get help'></img>
 								<br />
 								<span className='help-span'>Help</span>
